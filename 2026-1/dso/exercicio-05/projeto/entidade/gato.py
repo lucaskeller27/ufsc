@@ -9,3 +9,6 @@ class Gato(Mamifero):
     
     def produzir_som(self):
         return super().produzir_som() + " SOM: MIAU"
+    
+    def mover(self):
+        return super().mover()

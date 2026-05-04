@@ -9,3 +9,6 @@ class Cachorro(Mamifero):
     
     def produzir_som(self):
         return super().produzir_som() + " SOM: AU"
+    
+    def mover(self):
+        return super().mover()
